@@ -962,9 +962,17 @@ p.slide-numbering.left {
 }
 .slide--8__icons {
   display: flex;
-  gap: 6em;
+  gap: 5em;
   margin-bottom: 5em;
-  width: 95em;
+}
+.slide--8__icon.first {
+  width: 35em;
+}
+.slide--8__icon.second {
+  width: 24em;
+}
+.slide--8__icon.third {
+  width: 23em;
 }
 .slide--8__icon img {
   height: 15.5em;
@@ -977,11 +985,13 @@ p.slide-numbering.left {
   line-height: 1.2em;
   text-align: center;
   margin-bottom: 0.35em;
+  min-width: max-content;
 }
 .slide--8__icon p {
   font-size: 2em;
   line-height: 1.2em;
   text-align: center;
+  min-width: max-content;
 }
 .slide--8__blocks {
   position: relative;
@@ -1217,8 +1227,9 @@ p.slide-numbering.left {
   top: 0;
   right: -5em;
   height: 100vh;
-  width: max-content;
+  width: 105em;
   z-index: 1;
+  object-position: bottom right;
 }
 .slide--11 p.accent-blue {
   position: absolute;
