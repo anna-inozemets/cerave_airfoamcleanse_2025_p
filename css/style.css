@@ -964,6 +964,7 @@ p.slide-numbering.left {
   display: flex;
   gap: 6em;
   margin-bottom: 5em;
+  width: 95em;
 }
 .slide--8__icon img {
   height: 15.5em;
@@ -1846,6 +1847,9 @@ p.slide-numbering.left {
   animation: bounceDown 3s ease-in-out infinite;
   filter: invert(1);
   z-index: 2;
+}
+.slide--7__left.active .slide--7__left-content::after {
+  opacity: 0;
 }
 .slide--7__left.active .circle {
   cursor: default;
